@@ -12,6 +12,11 @@
             return await queries.QueryGetAll(ParamFilters);
         }
 
+        public async Task<IResultMessages<dynamic>> PersonelInfo(int PersonelId)
+        {
+            return await queries.QueryFirstOrDefault("SELECT * FROM ppersonel where personelid = " + PersonelId + "");
+        }
+
         public async Task<IResultMessages<dynamic>> PersonelLogin(string Username, string Passwords)
         {
             return await queries.QueryFirstOrDefault("SELECT * FROM ppersonel where sifre = '"+ Passwords + "' and perkodu = '"+ Username + "'");

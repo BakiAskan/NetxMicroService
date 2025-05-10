@@ -7,8 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\Orders\" />
-    <Folder Include="Commands\Personels\" />
+    <Compile Remove="DALCommands\Orders\**" />
+    <Compile Remove="DALCommands\Personels\**" />
+    <EmbeddedResource Remove="DALCommands\Orders\**" />
+    <EmbeddedResource Remove="DALCommands\Personels\**" />
+    <None Remove="DALCommands\Orders\**" />
+    <None Remove="DALCommands\Personels\**" />
   </ItemGroup>
 
   <ItemGroup>

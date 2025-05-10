@@ -14,5 +14,9 @@
         {
             return ResultMessages<IEnumerable<dynamic>>.SuccessMessage(await _dbConnection.QueryAsync<dynamic>("EXEC" + ProcName + " " + SqlParams + " "), HttpStatusCode.OK);
         }
+        public async Task<IResultMessages<dynamic>> CommandProcExecuteReturnValue(string SqlParams)
+        {
+            return ResultMessages<dynamic>.SuccessMessage(await _dbConnection.ExecuteScalarAsync(SqlParams), HttpStatusCode.OK);
+        }
     }
 }

@@ -5,5 +5,7 @@
         public Task<IResultMessages<dynamic>> PersonelById(string ParamSql);
         public Task<IResultMessages<IEnumerable<dynamic>>> PersonelFilter(string ParamFilters);
         public Task<IResultMessages<dynamic>> PersonelLogin(string Username,string Passwords);
+        public Task<IResultMessages<dynamic>> PersonelInfo(int PersonelId);
+
     }
 }

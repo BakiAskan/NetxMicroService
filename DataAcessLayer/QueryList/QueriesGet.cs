@@ -2,6 +2,6 @@
 {
     public static class QueriesGet
     {
-        public static string OrderGetAll = "Select * From Orders";
+        public static string OrderGetAll = "Select * From siparis";
     }
 }

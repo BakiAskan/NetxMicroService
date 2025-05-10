@@ -1,4 +1,6 @@
-﻿using BusinessLayers.BLLQueries;
+﻿using BusinessLayers.BLCommands;
+using BusinessLayers.BLCommands.Abstract;
+using BusinessLayers.BLLQueries;
 using BusinessLayers.BLLQueries.Abstract;
 using DataAcessLayer;
 using ErpMikroservis.AspectCore.Utilities.IoC;
@@ -15,7 +17,8 @@ namespace BusinessLayers
             services.AddInterceptedScoped<IBLPersonelQueries, BLPersonelQueries>();
 
             services.AddInterceptedScoped<IBLOrderQueries, BLOrderQueries>();
-         
+            services.AddInterceptedScoped<IBLCurrencyCommand, BLCurrencyCommand>();
+
 
 
 

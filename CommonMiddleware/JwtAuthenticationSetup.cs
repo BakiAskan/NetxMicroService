@@ -28,9 +28,11 @@ public static class JwtAuthenticationSetup
 
         services.AddAuthorization(auth =>
         {
-            auth.AddPolicy("Bearer", new Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder()
-                .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
-                .RequireAuthenticatedUser().Build());
+            auth.AddPolicy("Bearer", policy =>
+            {
+                policy.AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme);
+                policy.RequireAuthenticatedUser();
+            });
         });
 
         return services;

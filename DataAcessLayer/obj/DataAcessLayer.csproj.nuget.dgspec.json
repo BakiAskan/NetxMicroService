@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\DataAcessLayer\\DataAcessLayer.csproj": {}
+    "C:\\Users\\bakia\\source\\repos\\BakiAskan\\NetxMicroService\\DataAcessLayer\\DataAcessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\DataAcessLayer\\DataAcessLayer.csproj": {
+    "C:\\Users\\bakia\\source\\repos\\BakiAskan\\NetxMicroService\\DataAcessLayer\\DataAcessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\DataAcessLayer\\DataAcessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\bakia\\source\\repos\\BakiAskan\\NetxMicroService\\DataAcessLayer\\DataAcessLayer.csproj",
         "projectName": "DataAcessLayer",
-        "projectPath": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\DataAcessLayer\\DataAcessLayer.csproj",
-        "packagesPath": "C:\\Users\\Hkmet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\DataAcessLayer\\obj\\",
+        "projectPath": "C:\\Users\\bakia\\source\\repos\\BakiAskan\\NetxMicroService\\DataAcessLayer\\DataAcessLayer.csproj",
+        "packagesPath": "C:\\Users\\bakia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bakia\\source\\repos\\BakiAskan\\NetxMicroService\\DataAcessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hkmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bakia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,18 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\Models\\Models.csproj"
+              "C:\\Users\\bakia\\source\\repos\\BakiAskan\\NetxMicroService\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\bakia\\source\\repos\\BakiAskan\\NetxMicroService\\Models\\Models.csproj"
               },
-              "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\ResultMessages\\ResultMessages.csproj": {
-                "projectPath": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\ResultMessages\\ResultMessages.csproj"
+              "C:\\Users\\bakia\\source\\repos\\BakiAskan\\NetxMicroService\\ResultMessages\\ResultMessages.csproj": {
+                "projectPath": "C:\\Users\\bakia\\source\\repos\\BakiAskan\\NetxMicroService\\ResultMessages\\ResultMessages.csproj"
               }
             }
           }
@@ -52,7 +51,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -87,24 +86,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\Models\\Models.csproj": {
+    "C:\\Users\\bakia\\source\\repos\\BakiAskan\\NetxMicroService\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\bakia\\source\\repos\\BakiAskan\\NetxMicroService\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\Hkmet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\Models\\obj\\",
+        "projectPath": "C:\\Users\\bakia\\source\\repos\\BakiAskan\\NetxMicroService\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\bakia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bakia\\source\\repos\\BakiAskan\\NetxMicroService\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hkmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bakia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -113,7 +112,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -132,7 +130,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -153,24 +151,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\ResultMessages\\ResultMessages.csproj": {
+    "C:\\Users\\bakia\\source\\repos\\BakiAskan\\NetxMicroService\\ResultMessages\\ResultMessages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\ResultMessages\\ResultMessages.csproj",
+        "projectUniqueName": "C:\\Users\\bakia\\source\\repos\\BakiAskan\\NetxMicroService\\ResultMessages\\ResultMessages.csproj",
         "projectName": "ResultMessages",
-        "projectPath": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\ResultMessages\\ResultMessages.csproj",
-        "packagesPath": "C:\\Users\\Hkmet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\ResultMessages\\obj\\",
+        "projectPath": "C:\\Users\\bakia\\source\\repos\\BakiAskan\\NetxMicroService\\ResultMessages\\ResultMessages.csproj",
+        "packagesPath": "C:\\Users\\bakia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bakia\\source\\repos\\BakiAskan\\NetxMicroService\\ResultMessages\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hkmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bakia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -179,7 +177,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -198,7 +195,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -219,7 +216,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

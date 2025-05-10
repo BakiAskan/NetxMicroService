@@ -96,7 +96,7 @@
       "Models/1.0.0": {
         "runtime": {
           "Models.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -104,7 +104,7 @@
       "ResultMessages/1.0.0": {
         "runtime": {
           "ResultMessages.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

@@ -28,8 +28,7 @@ if (app.Environment.IsDevelopment())
 
     });
 }
-app.UseMiddleware<InjectionMiddleWare>();
-app.UseMiddleware<IpRateLimitingMiddleware>();
+
 //app.UseMiddleware<IPSafeMiddleWare>();
 app.UseAuthorization();
 app.UseCors("CorsPolicy");

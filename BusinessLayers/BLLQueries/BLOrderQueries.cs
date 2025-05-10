@@ -21,7 +21,13 @@ namespace BusinessLayers.BLLQueries
             }
             else
             {
-                return await order.OrderGetAll(SQLString);
+                var result = await order.OrderGetAll(SQLString);
+                if (result.DataResult.Count() == 0)
+                {
+                    result.Messages = ["Veri Seti Boş"];
+                    return result;
+                }
+                return result;
             }
         }
     }

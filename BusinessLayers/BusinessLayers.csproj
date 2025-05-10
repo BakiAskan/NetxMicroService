@@ -17,8 +17,4 @@
     <ProjectReference Include="..\ResultMessages\ResultMessages.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="BLCommands\" />
-  </ItemGroup>
-
 </Project>

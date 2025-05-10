@@ -7,7 +7,7 @@ namespace IdentityApi.Applications
 {
     public class Token(IConfiguration _configuration) : IToken
     {
-        public string GenerateToken(string Id)
+        public string GenerateToken(string country, string Id,string Uid)
         {
             var TokenHandler = new JwtSecurityTokenHandler(); // Token Üretmemi ve üretirken ayarlamalar yapmamızı sağlayan sınıf.
             var Key = Encoding.ASCII.GetBytes(_configuration["SecretKey"].ToString());
@@ -16,7 +16,8 @@ namespace IdentityApi.Applications
                 Subject = new ClaimsIdentity(
                 [
                       new Claim(ClaimTypes.NameIdentifier,Id),
-                      new Claim(ClaimTypes.Role, "Admin"),
+                      new Claim(ClaimTypes.Country, country),
+                      new Claim("Uid", Uid),
                 ]),
                 Expires = DateTime.UtcNow.AddDays(1),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(Key), SecurityAlgorithms.HmacSha256Signature)

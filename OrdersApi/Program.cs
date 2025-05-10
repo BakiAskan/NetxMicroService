@@ -18,14 +18,16 @@ var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-        c.DefaultModelsExpandDepth(-1);
-
-    });
+ 
 }
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+    c.DefaultModelsExpandDepth(-1);
+
+});
+
 app.UseMiddleware<InjectionMiddleWare>();
 app.UseMiddleware<IpRateLimitingMiddleware>();
 //app.UseMiddleware<IPSafeMiddleWare>();

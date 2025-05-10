@@ -4,8 +4,8 @@ namespace ErpMikroservis.ResultMessages
 {
     public interface IResultMessages<T>
     {
-        public HttpStatusCode HttpStatusCode { get; init; }
-        public IList<string> Messages { get; init; }
-        public T DataResult { get; init; }
+        public HttpStatusCode HttpStatusCode { get; set; }
+        public IList<string> Messages { get; set; }
+        public T DataResult { get; set; }
     }
 }

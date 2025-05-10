@@ -32,5 +32,10 @@ namespace BusinessLayers.BLLQueries
                 return ResultMessages<dynamic>.ErrorMessage(ValidateToArrayList.Convert(result.Errors.ToList()), HttpStatusCode.BadRequest);
             }
         }
+        public async Task<IResultMessages<dynamic>> PersonelInfo(int PersonelId)
+        {
+            return await personel.PersonelInfo(PersonelId);
+        }
+              
     }
 }

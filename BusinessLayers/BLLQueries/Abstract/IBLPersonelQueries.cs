@@ -3,6 +3,7 @@
     public interface IBLPersonelQueries
     {
         public Task<IResultMessages<dynamic>> PersonelLogin(RequestLogin model);
+        public Task<IResultMessages<dynamic>> PersonelInfo(int PersonelId);
         public Task<IResultMessages<dynamic>> Deneme(RequestLogin model);
     }
 }
