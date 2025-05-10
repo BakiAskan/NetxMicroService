@@ -1,0 +1,17 @@
+C:\Users\Hkmet\Desktop\ErpMikroServis\AspectCore\bin\Release\net9.0\AspectCore.deps.json
+C:\Users\Hkmet\Desktop\ErpMikroServis\AspectCore\bin\Release\net9.0\AspectCore.dll
+C:\Users\Hkmet\Desktop\ErpMikroServis\AspectCore\bin\Release\net9.0\AspectCore.pdb
+C:\Users\Hkmet\Desktop\ErpMikroServis\AspectCore\bin\Release\net9.0\GlobalModel.dll
+C:\Users\Hkmet\Desktop\ErpMikroServis\AspectCore\bin\Release\net9.0\ResultMessages.dll
+C:\Users\Hkmet\Desktop\ErpMikroServis\AspectCore\bin\Release\net9.0\GlobalModel.pdb
+C:\Users\Hkmet\Desktop\ErpMikroServis\AspectCore\bin\Release\net9.0\ResultMessages.pdb
+C:\Users\Hkmet\Desktop\ErpMikroServis\AspectCore\obj\Release\net9.0\AspectCore.csproj.AssemblyReference.cache
+C:\Users\Hkmet\Desktop\ErpMikroServis\AspectCore\obj\Release\net9.0\AspectCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hkmet\Desktop\ErpMikroServis\AspectCore\obj\Release\net9.0\AspectCore.AssemblyInfoInputs.cache
+C:\Users\Hkmet\Desktop\ErpMikroServis\AspectCore\obj\Release\net9.0\AspectCore.AssemblyInfo.cs
+C:\Users\Hkmet\Desktop\ErpMikroServis\AspectCore\obj\Release\net9.0\AspectCore.csproj.CoreCompileInputs.cache
+C:\Users\Hkmet\Desktop\ErpMikroServis\AspectCore\obj\Release\net9.0\AspectCore.csproj.Up2Date
+C:\Users\Hkmet\Desktop\ErpMikroServis\AspectCore\obj\Release\net9.0\AspectCore.dll
+C:\Users\Hkmet\Desktop\ErpMikroServis\AspectCore\obj\Release\net9.0\refint\AspectCore.dll
+C:\Users\Hkmet\Desktop\ErpMikroServis\AspectCore\obj\Release\net9.0\AspectCore.pdb
+C:\Users\Hkmet\Desktop\ErpMikroServis\AspectCore\obj\Release\net9.0\ref\AspectCore.dll

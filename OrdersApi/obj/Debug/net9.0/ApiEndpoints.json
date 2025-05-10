@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "OrdersApi.Controllers.OrderController",
+    "Method": "OrderById",
+    "RelativePath": "api/Order/OrderById",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OrdersApi.Controllers.OrderController",
+    "Method": "OrderGetAll",
+    "RelativePath": "api/Order/OrderGetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

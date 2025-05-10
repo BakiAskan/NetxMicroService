@@ -1,0 +1,11 @@
+﻿  "AOPSettings": {
+    "IsCache": true,
+    "IsPerformance": false,
+    "IsLog": true,
+    "IsException": true, 
+    "LogPathFile": "C:\\LogFile\\",
+    "CacheDuracation": 500000,
+    "PerformanceInterval": 0
+  }
+
+  builder.Services.Configure<SettingsOptions>(builder.Configuration.GetSection("AOPSettings"));

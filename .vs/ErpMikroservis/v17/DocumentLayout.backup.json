@@ -1,0 +1,414 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD824D1-EBA8-4F4D-84CC-55A4F2209B92}|AspectCore\\AspectCore.csproj|c:\\users\\hkmet\\desktop\\erpmikroservis\\aspectcore\\appsettings.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4AD824D1-EBA8-4F4D-84CC-55A4F2209B92}|AspectCore\\AspectCore.csproj|solutionrelative:aspectcore\\appsettings.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD824D1-EBA8-4F4D-84CC-55A4F2209B92}|AspectCore\\AspectCore.csproj|c:\\users\\hkmet\\desktop\\erpmikroservis\\aspectcore\\logwriting\\logwriteextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD824D1-EBA8-4F4D-84CC-55A4F2209B92}|AspectCore\\AspectCore.csproj|solutionrelative:aspectcore\\logwriting\\logwriteextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\Utilities\\JsonParse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Utilities\\JsonParse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\ResultMessages\\ResultMessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ResultMessages\\ResultMessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\ResultMessages\\IResultMessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ResultMessages\\IResultMessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\RabbitMQConsumer\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RabbitMQConsumer\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865682CD-FCFE-43CD-9E46-29BE16A83215}|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\OrdersApi\\OrdersApi.csproj|c:\\users\\hkmet\\desktop\\erpmikroservis\\ordersapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865682CD-FCFE-43CD-9E46-29BE16A83215}|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\OrdersApi\\OrdersApi.csproj|solutionrelative:ordersapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\OrdersApi\\OrdersApi.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OrdersApi\\OrdersApi.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\OrdersApi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OrdersApi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\OrdersApi\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OrdersApi\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{529CFF30-B80F-4713-9F23-84CD4D483499}|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\IdentityApi\\IdentityApi.csproj|c:\\users\\hkmet\\desktop\\erpmikroservis\\identityapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{529CFF30-B80F-4713-9F23-84CD4D483499}|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\IdentityApi\\IdentityApi.csproj|solutionrelative:identityapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\IdentityApi\\IdentityApi.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IdentityApi\\IdentityApi.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\IdentityApi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IdentityApi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\IdentityApi\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IdentityApi\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82D3B6F-0F70-4B0E-BB69-F2F1C932BCD2}|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\DataAcessLayer\\DataAcessLayer.csproj|c:\\users\\hkmet\\desktop\\erpmikroservis\\dataacesslayer\\ioccontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82D3B6F-0F70-4B0E-BB69-F2F1C932BCD2}|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\DataAcessLayer\\DataAcessLayer.csproj|solutionrelative:dataacesslayer\\ioccontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82D3B6F-0F70-4B0E-BB69-F2F1C932BCD2}|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\DataAcessLayer\\DataAcessLayer.csproj|c:\\users\\hkmet\\desktop\\erpmikroservis\\dataacesslayer\\glabalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82D3B6F-0F70-4B0E-BB69-F2F1C932BCD2}|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\DataAcessLayer\\DataAcessLayer.csproj|solutionrelative:dataacesslayer\\glabalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC18EFB0-627F-4B24-9672-D02ABB14C6B6}|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\CommonMiddleware.csproj|c:\\users\\hkmet\\desktop\\erpmikroservis\\commonmiddleware\\jwtauthenticationsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC18EFB0-627F-4B24-9672-D02ABB14C6B6}|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\CommonMiddleware.csproj|solutionrelative:commonmiddleware\\jwtauthenticationsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC18EFB0-627F-4B24-9672-D02ABB14C6B6}|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\CommonMiddleware.csproj|c:\\users\\hkmet\\desktop\\erpmikroservis\\commonmiddleware\\ipsafemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC18EFB0-627F-4B24-9672-D02ABB14C6B6}|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\CommonMiddleware.csproj|solutionrelative:commonmiddleware\\ipsafemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC18EFB0-627F-4B24-9672-D02ABB14C6B6}|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\CommonMiddleware.csproj|c:\\users\\hkmet\\desktop\\erpmikroservis\\commonmiddleware\\ipratelimitingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC18EFB0-627F-4B24-9672-D02ABB14C6B6}|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\CommonMiddleware.csproj|solutionrelative:commonmiddleware\\ipratelimitingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC18EFB0-627F-4B24-9672-D02ABB14C6B6}|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\CommonMiddleware.csproj|c:\\users\\hkmet\\desktop\\erpmikroservis\\commonmiddleware\\ioccorspolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC18EFB0-627F-4B24-9672-D02ABB14C6B6}|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\CommonMiddleware.csproj|solutionrelative:commonmiddleware\\ioccorspolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC18EFB0-627F-4B24-9672-D02ABB14C6B6}|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\CommonMiddleware.csproj|c:\\users\\hkmet\\desktop\\erpmikroservis\\commonmiddleware\\injectionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC18EFB0-627F-4B24-9672-D02ABB14C6B6}|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\CommonMiddleware.csproj|solutionrelative:commonmiddleware\\injectionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC18EFB0-627F-4B24-9672-D02ABB14C6B6}|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\CommonMiddleware.csproj|c:\\users\\hkmet\\desktop\\erpmikroservis\\commonmiddleware\\customswaggersetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC18EFB0-627F-4B24-9672-D02ABB14C6B6}|C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\CommonMiddleware.csproj|solutionrelative:commonmiddleware\\customswaggersetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 168,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c93a910a-0fa6-4307-93a4-f2bd61ec7828}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppSettings.txt",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\AspectCore\\AppSettings.txt",
+              "RelativeDocumentMoniker": "AspectCore\\AppSettings.txt",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\AspectCore\\AppSettings.txt",
+              "RelativeToolTip": "AspectCore\\AppSettings.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-10T09:39:28.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogWriteExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\AspectCore\\LogWriting\\LogWriteExtensions.cs",
+              "RelativeDocumentMoniker": "AspectCore\\LogWriting\\LogWriteExtensions.cs",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\AspectCore\\LogWriting\\LogWriteExtensions.cs",
+              "RelativeToolTip": "AspectCore\\LogWriting\\LogWriteExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:19:15.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JsonParse.cs",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\Utilities\\JsonParse.cs",
+              "RelativeDocumentMoniker": "Utilities\\JsonParse.cs",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\Utilities\\JsonParse.cs",
+              "RelativeToolTip": "Utilities\\JsonParse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:39:23.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResultMessages.cs",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\ResultMessages\\ResultMessages.cs",
+              "RelativeDocumentMoniker": "ResultMessages\\ResultMessages.cs",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\ResultMessages\\ResultMessages.cs",
+              "RelativeToolTip": "ResultMessages\\ResultMessages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:39:23.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IResultMessages.cs",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\ResultMessages\\IResultMessages.cs",
+              "RelativeDocumentMoniker": "ResultMessages\\IResultMessages.cs",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\ResultMessages\\IResultMessages.cs",
+              "RelativeToolTip": "ResultMessages\\IResultMessages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:39:23.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\RabbitMQConsumer\\Program.cs",
+              "RelativeDocumentMoniker": "RabbitMQConsumer\\Program.cs",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\RabbitMQConsumer\\Program.cs",
+              "RelativeToolTip": "RabbitMQConsumer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:39:23.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\OrdersApi\\Program.cs",
+              "RelativeDocumentMoniker": "OrdersApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\OrdersApi\\Program.cs",
+              "RelativeToolTip": "OrdersApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:39:23.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrdersApi.csproj.user",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\OrdersApi\\OrdersApi.csproj.user",
+              "RelativeDocumentMoniker": "OrdersApi\\OrdersApi.csproj.user",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\OrdersApi\\OrdersApi.csproj.user",
+              "RelativeToolTip": "OrdersApi\\OrdersApi.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2025-05-10T09:39:23.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\OrdersApi\\appsettings.json",
+              "RelativeDocumentMoniker": "OrdersApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\OrdersApi\\appsettings.json",
+              "RelativeToolTip": "OrdersApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-10T09:39:23.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\OrdersApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "OrdersApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\OrdersApi\\appsettings.Development.json",
+              "RelativeToolTip": "OrdersApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-10T09:39:23.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\IdentityApi\\Program.cs",
+              "RelativeDocumentMoniker": "IdentityApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\IdentityApi\\Program.cs",
+              "RelativeToolTip": "IdentityApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:39:23.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IdentityApi.csproj.user",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\IdentityApi\\IdentityApi.csproj.user",
+              "RelativeDocumentMoniker": "IdentityApi\\IdentityApi.csproj.user",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\IdentityApi\\IdentityApi.csproj.user",
+              "RelativeToolTip": "IdentityApi\\IdentityApi.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2025-05-10T09:39:23.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\IdentityApi\\appsettings.json",
+              "RelativeDocumentMoniker": "IdentityApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\IdentityApi\\appsettings.json",
+              "RelativeToolTip": "IdentityApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-10T09:39:23.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\IdentityApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "IdentityApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\IdentityApi\\appsettings.Development.json",
+              "RelativeToolTip": "IdentityApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-10T09:39:22.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IocContainer.cs",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\DataAcessLayer\\IocContainer.cs",
+              "RelativeDocumentMoniker": "DataAcessLayer\\IocContainer.cs",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\DataAcessLayer\\IocContainer.cs",
+              "RelativeToolTip": "DataAcessLayer\\IocContainer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:39:22.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GlabalUsing.cs",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\DataAcessLayer\\GlabalUsing.cs",
+              "RelativeDocumentMoniker": "DataAcessLayer\\GlabalUsing.cs",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\DataAcessLayer\\GlabalUsing.cs",
+              "RelativeToolTip": "DataAcessLayer\\GlabalUsing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:39:22.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "JwtAuthenticationSetup.cs",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\JwtAuthenticationSetup.cs",
+              "RelativeDocumentMoniker": "CommonMiddleware\\JwtAuthenticationSetup.cs",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\JwtAuthenticationSetup.cs",
+              "RelativeToolTip": "CommonMiddleware\\JwtAuthenticationSetup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:39:22.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IPSafeMiddleWare.cs",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\IPSafeMiddleWare.cs",
+              "RelativeDocumentMoniker": "CommonMiddleware\\IPSafeMiddleWare.cs",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\IPSafeMiddleWare.cs",
+              "RelativeToolTip": "CommonMiddleware\\IPSafeMiddleWare.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:39:22.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IpRateLimitingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\IpRateLimitingMiddleware.cs",
+              "RelativeDocumentMoniker": "CommonMiddleware\\IpRateLimitingMiddleware.cs",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\IpRateLimitingMiddleware.cs",
+              "RelativeToolTip": "CommonMiddleware\\IpRateLimitingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:39:22.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IOCCorsPolicy.cs",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\IOCCorsPolicy.cs",
+              "RelativeDocumentMoniker": "CommonMiddleware\\IOCCorsPolicy.cs",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\IOCCorsPolicy.cs",
+              "RelativeToolTip": "CommonMiddleware\\IOCCorsPolicy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:39:22.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "InjectionMiddleWare.cs",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\InjectionMiddleWare.cs",
+              "RelativeDocumentMoniker": "CommonMiddleware\\InjectionMiddleWare.cs",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\InjectionMiddleWare.cs",
+              "RelativeToolTip": "CommonMiddleware\\InjectionMiddleWare.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:39:22.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CustomSwaggerSetup.cs",
+              "DocumentMoniker": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\CustomSwaggerSetup.cs",
+              "RelativeDocumentMoniker": "CommonMiddleware\\CustomSwaggerSetup.cs",
+              "ToolTip": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\CommonMiddleware\\CustomSwaggerSetup.cs",
+              "RelativeToolTip": "CommonMiddleware\\CustomSwaggerSetup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:39:22.439Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "IdentityApi.Controllers.PersonelController",
+    "Method": "DenemeMethod",
+    "RelativePath": "api/Personel/DenemeMethod",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Models.RequestModel.RequestLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityApi.Controllers.PersonelController",
+    "Method": "PersonelLogin",
+    "RelativePath": "api/Personel/PersonelLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Models.RequestModel.RequestLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

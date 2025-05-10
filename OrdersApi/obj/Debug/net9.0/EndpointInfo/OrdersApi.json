@@ -1,0 +1,55 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "Web API",
+    "description": "",
+    "termsOfService": "https://example.com/terms",
+    "contact": {
+      "name": "WEB API",
+      "url": "https://www.website.com.tr",
+      "email": "info@mail.com.tr"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Order/OrderGetAll": {
+      "post": {
+        "tags": [
+          "Order"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Order/OrderById": {
+      "post": {
+        "tags": [
+          "Order"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: Bearer {token}",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

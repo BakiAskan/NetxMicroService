@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YQNE2MM0WLA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hkmet\\Desktop\\ErpMikroServis\\Utilities\\Utilities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hkmet\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
