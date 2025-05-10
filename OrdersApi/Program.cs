@@ -28,6 +28,7 @@ app.UseSwaggerUI(c =>
 
 });
 
+app.UseMiddleware<CultureMiddleware>();
 app.UseMiddleware<InjectionMiddleWare>();
 app.UseMiddleware<IpRateLimitingMiddleware>();
 //app.UseMiddleware<IPSafeMiddleWare>();
