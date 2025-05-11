@@ -3,7 +3,6 @@ using DataAcessLayer.Queries.Personels;
 
 namespace BusinessLayers.BLLQueries
 {
-    [AOPException]
     [AOPLog]
     public class BLPersonelQueries(IPersonelQueries personel) : IBLPersonelQueries
     {

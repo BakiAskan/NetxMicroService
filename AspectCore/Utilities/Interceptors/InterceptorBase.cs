@@ -33,41 +33,6 @@ namespace ErpMikroservis.AspectCore
                 catch (Exception ex)
                 {
                     isSuccess = false;
-                    OnException(invocation, ex, attribute);
-                    var errorMessage = ResultMessages<dynamic>.ErrorMessage(
-                    new List<string> { "Beklenmedik Bir Hata İle Karşılaşıldı, Lütfen Sistem Yöneticisi İle İletişime Geçiniz..!" },
-                    HttpStatusCode.InternalServerError
-                );
-                    var returnType = invocation.Method.ReturnType;
-
-                    // Task<T> olup olmadığını kontrol et
-                    if (returnType.IsGenericType && returnType.GetGenericTypeDefinition() == typeof(Task<>))
-                    {
-                        var innerType = returnType.GetGenericArguments()[0]; // örn. IResultMessages<Foo>
-
-                        // IResultMessages<T>'ye uygun bir örnek oluştur
-                        var resultMessagesType = typeof(ResultMessages<>).MakeGenericType(innerType.GetGenericArguments()[0]);
-                        var errorMethod = resultMessagesType.GetMethod("ErrorMessage", BindingFlags.Public | BindingFlags.Static);
-
-                        var errorInstance = errorMethod.Invoke(null, new object[]
-                        {
-        new List<string> { "Beklenmedik Bir Hata İle Karşılaşıldı, Lütfen Sistem Yöneticisi İle İletişime Geçiniz..!" },
-        HttpStatusCode.InternalServerError
-                        });
-
-                        var taskFromResultMethod = typeof(Task)
-                            .GetMethod(nameof(Task.FromResult))
-                            .MakeGenericMethod(innerType);
-
-                        invocation.ReturnValue = taskFromResultMethod.Invoke(null, new object[] { errorInstance });
-                    }
-                    else
-                    {
-                        // Task olmayan senaryo (örn. IResultMessages<T> direkt dönülüyorsa)
-                        // Bu nadir olur ama kontrol faydalı olabilir
-                        invocation.ReturnValue = errorMessage;
-                    }
-
                 }
                 finally
                 {

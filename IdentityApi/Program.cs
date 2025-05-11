@@ -28,7 +28,7 @@ if (app.Environment.IsDevelopment())
 
     });
 }
-
+app.UseMiddleware<ExceptionMiddleware>();
 app.UseMiddleware<CultureMiddleware>();
 //app.UseMiddleware<IPSafeMiddleWare>();
 app.UseAuthorization();
