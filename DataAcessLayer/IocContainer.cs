@@ -1,6 +1,7 @@
 ﻿using DataAcessLayer.DALCommands.Currency;
-using DataAcessLayer.Queries.Orders;
-using DataAcessLayer.Queries.Personels;
+using DataAcessLayer.Queries.Companies;
+using DataAcessLayer.Queries.Projects;
+using DataAcessLayer.Queries.Stocks;
 using Microsoft.Extensions.DependencyInjection;
 using System.Data.SqlClient;
 
@@ -15,9 +16,10 @@ namespace DataAcessLayer
             services.AddScoped<ICommands, Commands>();
 
 
-            services.AddScoped<IPersonelQueries, PersonelQueries>();
-            services.AddScoped<IOrderQueries, OrderQueries>();
             services.AddScoped<ICurrencyCommand, CurrencyCommand>();
+            services.AddScoped<IStockQueries, StockQueries>();
+            services.AddScoped<ICompanyQueries, CompanyQueries>();
+            services.AddScoped<IProjectQueries, ProjectQueries>();
 
             // Bütün Client'lar için tek nesne. Herkes Aynı nesneyi kullanacak.
             services.AddSingleton<IDbConnection>((sp) => new SqlConnection(ConnectionString));

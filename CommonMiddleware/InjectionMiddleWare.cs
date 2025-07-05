@@ -47,7 +47,7 @@ namespace CommonMiddleware
 
             if (IsMalicious(queryString) || IsMalicious(queryPath))
             {
-                context.Response.StatusCode = 200;
+                context.Response.StatusCode = 400;
                 context.Response.ContentType = "application/json";
                 await context.Response.WriteAsync(JsonSerializer.Serialize(ResultMessages<string>.ErrorMessage(new List<string>() { "Beklenmedik bir hata oluştu. Lütfen daha sonra tekrar deneyiniz." }, HttpStatusCode.BadRequest)));
                 return;
@@ -62,7 +62,7 @@ namespace CommonMiddleware
 
                 if (IsMalicious(requestBody))
                 {
-                    context.Response.StatusCode = 200;
+                    context.Response.StatusCode = 400;
                     context.Response.ContentType = "application/json";
                     await context.Response.WriteAsync(JsonSerializer.Serialize(ResultMessages<string>.ErrorMessage(new List<string>() { "Saldırı Algılandı. Yasaklandınız." }, HttpStatusCode.BadRequest)));
                     return;

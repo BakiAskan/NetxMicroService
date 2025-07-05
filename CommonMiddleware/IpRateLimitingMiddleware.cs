@@ -26,7 +26,7 @@ public class IpRateLimitingMiddleware(RequestDelegate next, IConfiguration confi
            
             if (requestCount >= _limit)
             {
-                context.Response.StatusCode = 200;
+                context.Response.StatusCode = 400;
                 context.Response.ContentType = "application/json";
                 await context.Response.WriteAsync(JsonSerializer.Serialize(ResultMessages<string>.ErrorMessage(new List<string>() { "Çok fazla istek. Lütfen daha sonra tekrar deneyin." }, HttpStatusCode.RequestTimeout)));
                 return;

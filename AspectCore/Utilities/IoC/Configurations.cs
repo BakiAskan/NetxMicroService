@@ -13,7 +13,7 @@ namespace ErpMikroservis.AspectCore.Utilities.IoC
             services.AddSingleton<InterceptorBase<AOPLogAttribute>, LogAspect>();
             services.AddTransient<InterceptorBase<CacheAddAttribute>, CacheAspect>();
             services.AddTransient<InterceptorBase<CacheRemoveAttribute>, CacheRemove>();
-            services.AddScoped<InterceptorBase<AOPExceptionAttribute>, ExceptionAspect>();
+           
             services.AddTransient<ICacheService, MemoryCacheService>();
             services.AddCustomHttpContextAccessor();
             return services;

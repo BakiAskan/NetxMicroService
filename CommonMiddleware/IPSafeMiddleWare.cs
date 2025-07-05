@@ -15,9 +15,9 @@ namespace CommonMiddleware
         public async Task Invoke(HttpContext context)
         {
             var requestIpAdress = context.Connection.RemoteIpAddress;
-            if (_ipList.Where(x => IPAddress.Parse(x).Equals(requestIpAdress)).Any())
+            if (!_ipList.Where(x => IPAddress.Parse(x).Equals(requestIpAdress)).Any())
             {
-                context.Response.StatusCode = 200;
+                context.Response.StatusCode = 400;
                 context.Response.ContentType = "application/json";
                 await context.Response.WriteAsync(JsonSerializer.Serialize(ResultMessages<string>.ErrorMessage(new List<string>() { configuration["ipList:Messages"] }, HttpStatusCode.BadRequest)));
                 return;

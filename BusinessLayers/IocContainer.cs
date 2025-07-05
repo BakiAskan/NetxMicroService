@@ -1,7 +1,7 @@
 ﻿using BusinessLayers.BLCommands;
 using BusinessLayers.BLCommands.Abstract;
-using BusinessLayers.BLLQueries;
 using BusinessLayers.BLLQueries.Abstract;
+using BusinessLayers.BLLQueries.Concrete;
 using DataAcessLayer;
 using ErpMikroservis.AspectCore.Utilities.IoC;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,9 +18,9 @@ namespace BusinessLayers
 
             services.ConfigureAOPCore();
             //Client Kaç adet Request atarsa her Client için 1 Nesne
-            services.AddInterceptedScoped<IBLPersonelQueries, BLPersonelQueries>();
-
-            services.AddInterceptedScoped<IBLOrderQueries, BLOrderQueries>();
+            services.AddInterceptedScoped<IBLStockQueries, BLStockQueries>();
+            services.AddInterceptedScoped<IBLCompanyQueries, BLCompanyQueries>();
+            services.AddInterceptedScoped<IBLProjectQueries, BLProjectQueries>();
             services.AddInterceptedScoped<IBLCurrencyCommand, BLCurrencyCommand>();
 
 
