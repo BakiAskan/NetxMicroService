@@ -1,0 +1,36 @@
+# ASP.NET Core ve .NET Core Derleme Çıktıları
+bin/
+obj/
+
+# .NET Core derleme çıktıları
+*.dll
+*.exe
+*.pdb
+*.user
+
+# Visual Studio ve IDE'ler için dosyalar
+.vs/
+.vscode/
+.idea/
+*.userosscache
+*.suo
+*.user
+
+# Node.js bağımlılıkları
+node_modules/
+
+# Python derleme çıktıları
+__pycache__/
+*.pyc
+
+# Gizli konfigürasyon dosyaları (örneğin API anahtarları)
+.env
+
+# Log dosyaları
+*.log
+
+# Geçici dosyalar
+*~
+
+# JetBrains IDE'leri için dosyalar
+*.iml
