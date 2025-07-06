@@ -23,10 +23,9 @@ if (app.Environment.IsDevelopment())
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
     c.DefaultModelsExpandDepth(-1);
-
 });
+app.UseRouting();
 
 app.UseMiddleware<ExceptionMiddleware>(); // kullanýcýya standart hata mesajý döndürür. orjinal hata mesajýný loglar
 app.UseMiddleware<CultureMiddleware>(); // kullanýcýnýn dilini ayarlar. (CultureInfo)

@@ -1,4 +1,4 @@
-using BusinessLayers;
+ï»¿using BusinessLayers;
 using CommonMiddleware;
 using ErpMikroservis.GlobalModel;
 var builder = WebApplication.CreateBuilder(args);
@@ -23,20 +23,19 @@ if (app.Environment.IsDevelopment())
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
     c.DefaultModelsExpandDepth(-1);
-
 });
+app.UseRouting();
 
-app.UseMiddleware<ExceptionMiddleware>(); // kullanıcıya standart hata mesajı döndürür. orjinal hata mesajını loglar
-app.UseMiddleware<CultureMiddleware>(); // kullanıcının dilini ayarlar. (CultureInfo)
-app.UseMiddleware<InjectionMiddleWare>(); // SQL ve XSS injection koruması yapar.
-app.UseMiddleware<IpRateLimitingMiddleware>(); // IP bazlı rate limiting middleware. IP başına istek sayısını sınırlar.
-//app.UseMiddleware<IPSafeMiddleWare>(); // IP bazlı istek izni middleware. Belirli IP'lere izin verir, diğerlerini engeller.
-app.UseAuthorization(); // Yetkilendirme middleware'i. JWT token kontrolü yapar.
-app.UseCors("CorsPolicy"); // CORS ayarlarını uygular. CorsPolicy adında bir policy tanımlanmış olmalı.
-app.UseHttpsRedirection(); // HTTPS yönlendirmesi yapar. HTTP isteklerini HTTPS'ye yönlendirir.
-app.MapControllers().RequireRateLimiting("IPPolicy"); // Controller'lara rate limiting uygular. IPPolicy adında bir policy tanımlanmış olmalı.
+app.UseMiddleware<ExceptionMiddleware>(); // kullanÃ½cÃ½ya standart hata mesajÃ½ dÃ¶ndÃ¼rÃ¼r. orjinal hata mesajÃ½nÃ½ loglar
+app.UseMiddleware<CultureMiddleware>(); // kullanÃ½cÃ½nÃ½n dilini ayarlar. (CultureInfo)
+app.UseMiddleware<InjectionMiddleWare>(); // SQL ve XSS injection korumasÃ½ yapar.
+app.UseMiddleware<IpRateLimitingMiddleware>(); // IP bazlÃ½ rate limiting middleware. IP baÃ¾Ã½na istek sayÃ½sÃ½nÃ½ sÃ½nÃ½rlar.
+//app.UseMiddleware<IPSafeMiddleWare>(); // IP bazlÃ½ istek izni middleware. Belirli IP'lere izin verir, diÃ°erlerini engeller.
+app.UseAuthorization(); // Yetkilendirme middleware'i. JWT token kontrolÃ¼ yapar.
+app.UseCors("CorsPolicy"); // CORS ayarlarÃ½nÃ½ uygular. CorsPolicy adÃ½nda bir policy tanÃ½mlanmÃ½Ã¾ olmalÃ½.
+app.UseHttpsRedirection(); // HTTPS yÃ¶nlendirmesi yapar. HTTP isteklerini HTTPS'ye yÃ¶nlendirir.
+app.MapControllers().RequireRateLimiting("IPPolicy"); // Controller'lara rate limiting uygular. IPPolicy adÃ½nda bir policy tanÃ½mlanmÃ½Ã¾ olmalÃ½.
 
 
 app.Run();
