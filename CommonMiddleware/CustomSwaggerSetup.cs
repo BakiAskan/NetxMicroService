@@ -59,6 +59,7 @@ namespace CommonMiddleware
                         Array.Empty<string>()
                     }
                 });
+              c.OperationFilter<AddAcceptLanguageHeaderOperationFilter>();
             });
 
             return services;
